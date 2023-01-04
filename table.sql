@@ -17,7 +17,8 @@ CREATE TABLE `student`(
     `major` VARCHAR(20),
     PRIMARY KEY(`student_id`)
 );
-DESCRIBE `student`;
+
+DESCRIBE `student`; #顯示表格格式
 
 DROP TABLE `student`; #刪除表格
 ALTER TABLE `student` ADD gpa DECIMAL(3,2); #新增表格內的內容

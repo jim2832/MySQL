@@ -9,6 +9,7 @@ CREATE TABLE `student`(
     `major` VARCHAR(20),
     PRIMARY KEY(`student_id`)
 );
-SELECT * FROM `student`; #搜尋表格內的所有資料(*代表全部)
 
-INSERT INTO `student` VALUES(3, "小藍", "英文"); #新增表格資料
+INSERT INTO `student` VALUES(1, "小藍", "英文"); #新增表格資料
+
+SELECT * FROM `student`; #搜尋表格內的所有資料(*代表全部)
