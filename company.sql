@@ -56,7 +56,8 @@ INSERT INTO `employee` VALUES(206, "小黃", "1998-10-08", "F", 50000, 1, NULL);
 INSERT INTO `employee` VALUES(207, "小綠", "1985-09-16", "M", 29000, 2, 206);
 INSERT INTO `employee` VALUES(208, "小黑", "1998-12-19", "M", 35000, 3, 206);
 INSERT INTO `employee` VALUES(209, "小白", "1998-01-22", "F", 39000, 3, 207);
-INSERT INTO `employee` VALUES(210, "小蘭", "1998-11-10", "F", 84000, 1, 207);
+INSERT INTO `employee` VALUES(210, "小蘭", "1925-11-10", "F", 84000, 1, 207);
+UPDATE `employee` SET `birth_date` = "1925-11-10" WHERE `emp_id` = 210;
 
 INSERT INTO `client` VALUES(400, "阿狗", "254354335");
 INSERT INTO `client` VALUES(401, "阿貓", "25633899");
